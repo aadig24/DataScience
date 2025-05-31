@@ -1,0 +1,25 @@
+Hierarchical Clustering:
+1. Agglomerative    2. Divisive
+
+We will focus on Agglomerative Clustering
+
+Step 1: Make each data point a single-point cluster -> we will have N clusters
+Step 2: Take two closest points and make them one cluster -> we have N-2 clusters
+Step 3: Take two closest clusters and make them one cluster -> we have N-2 clusters
+Step 4: Repeat Step 3 until only one cluster is left
+
+Distance between clusters is a crucial point in Hierarchical Clustering
+Ways to calculate Distance between two clusters:
+1. Closest points
+2. Farthest points
+3. Average Distance
+4. Distance between centroids
+
+In each of the steps, memory is saved in the form of Dendrograms.
+X-axis: Data points
+Y-axis: Euclidean distances
+
+Using dendrograms:
+- set threshold 
+    Number of clusters = Number of vertical lines crossed
+- It is recommended that threshold should cross the largest distance 
