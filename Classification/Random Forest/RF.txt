@@ -1,0 +1,8 @@
+Ensemble learning -> taking multiple ML algorithms and developing a new algorithm.
+
+Random Forest 
+
+Step 1: Pick K data points at random from the training set
+Step 2: Build a decision tree based on the K data points
+Step 3: Choose the number of trees you want to build a repeat Steps 1 & 2
+Step 4: For a new data point, make each tree predict and based on majority vote assign to the relevant category
